@@ -3,38 +3,42 @@
     android:gravity="center"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:padding="30px">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:layout_marginBottom="100px"
-        android:textAlignment="center"
-        android:textSize="70px"
-        android:textColor="#ADACAC"/>
+    android:padding="30px"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="200px"
+        android:background="@drawable/net" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Username"/>
     <EditText
+        android:drawableLeft="@drawable/baseline_supervised_user_circle_24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your username:"
-        android:id="@+id/unametxt"/>
+        android:id="@+id/unametxt" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password"/>
+        android:text="Password" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your Password"
-        android:id="@+id/passtxt"/>
+        android:id="@+id/passtxt"
+        />
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:id="@+id/loginbtn"/>
+        android:id="@+id/loginbtn"
+        android:background="#57606f"
+        android:layout_marginTop="30px"/>
 
 
 </LinearLayout>
